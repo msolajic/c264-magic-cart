@@ -1,0 +1,22 @@
+GAL20V8               first line : used type of GAL
+Plus4                 second line: any text (max. 8 character)
+
+RW   A15  A14 A9  A10 A8 A2 A4 A6  A0 PHI2 GND
+CFG0 CFG1 CRT A12 A7  A5 A1 A3 A13 NC A11  VCC
+	 
+
+
+/CRT = A15 * A14 * A13 * A12 * A11 * A10 * /A9 *  A8 *  A7 *  A6 *  A5 *  A4 *  A3 *  A2 *  A1 * /A0 * /RW * PHI2 *  CFG0 *  CFG1
+      +A15 * A14 * A13 * A12 * A11 * A10 * /A9 *  A8 *  A7 * /A6 *  A5 * /A4 * /A3 * /A2 * /A1 * /A0 * /RW * PHI2 *  CFG0 * /CFG1
+      +A15 * A14 * A13 * A12 * A11 * A10 *  A9 * /A8 * /A7 * /A6 * /A5 * /A4 * /A3 * /A2 * /A1 * /A0 * /RW * PHI2 * /CFG0 *  CFG1
+      +A15 * A14 * A13 * A12 * A11 * A10 * /A9 *  A8 * /A7 * /A6 * /A5 *  A4 * /A3 *  A2 *  A1 *  A0 * /RW * PHI2 * /CFG0 * /CFG1
+
+DESCRIPTION:
+
+COMMODORE PLUS4 ROM CARTRIDGE ADDRESS DECODER
+ACTIVE ADDRESS SELECTED TROUGH CFG0 AND CFG1
+
+$FDFE (CFG0=1-OPEN,  CFG1=1-OPEN)
+$FDA0 (CFG0=1-OPEN,  CFG1=0-CLOSED)
+$FE00 (CFG0=0-CLOSED, CFG1=1-OPEN)
+$FD17 (CFG0=0-CLOSED, CFG1=0-CLOSED)

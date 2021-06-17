@@ -1,0 +1,29 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | RW       | Input
+   2   | A15      | Input
+   3   | A14      | Input
+   4   | A9       | Input
+   5   | A10      | Input
+   6   | A8       | Input
+   7   | A2       | Input
+   8   | A4       | Input
+   9   | A6       | Input
+  10   | A0       | Input
+  11   | PHI2     | Input
+  12   | GND      | GND
+  13   | CFG0     | Input
+  14   | CFG1     | Input
+  15   | CRT      | Output
+  16   | A12      | Input
+  17   | A7       | Input
+  18   | A5       | Input
+  19   | A1       | Input
+  20   | A3       | Input
+  21   | A13      | Input
+  22   | NC       | NC
+  23   | A11      | Input
+  24   | VCC      | VCC
+
