@@ -59,16 +59,17 @@ The PCB is designed to be as close in dimensions as the original Commodore PCB, 
 
 ![cartridges_in_case](./images/cartridges_in_case.png)
 
-But, where are the EAGLE schematic and PCB design?
---------------------------------------------------
-
-Glad that you asked. The schematic is available as a .pdf file, and for the time being I'm making only the Gerbers available, because of people taking credit for my designs, removing texts and presenting the cartridges as their own product, thus breaching the license, and later refusing to take action upon notice. I hope that you can understand. You can see from the photos, this was not an easy task to route. If you have good intentions, I will provide you the files via e-mail or other communications channel. The EAGLE files will be made available 6 months from the date of the release (on 1st of January 2022.)
-
 Revision history
 ----------------
 
 - Rev.1
     - Initial release
+
+Changelog
+---------
+
+- February 11th, 2022:
+    - Added EAGLE schematic and board files
     
 Thanks:
 -------
